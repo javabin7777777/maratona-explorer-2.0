@@ -15,23 +15,47 @@ function funcao(){
     a=document.getElementsByTagName("input")[4];
     sessionStorage.setItem('experiencia',a.value);
     
-    a=document.getElementsByTagName("input")[5];
-    sessionStorage.setItem('youtube',a.value);
+    a=document.getElementsByTagName("input")[5];   
+    if(a.value == ""){
+        sessionStorage.setItem('youtube',"#base");               
+    }else{        
+        sessionStorage.setItem('youtube',a.value);
+    }   
 
     a=document.getElementsByTagName("input")[6];
-    sessionStorage.setItem('github',a.value);
+    if(a.value == ""){
+        sessionStorage.setItem('github',"#base");               
+    }else{        
+        sessionStorage.setItem('github',a.value);
+    }     
 
     a=document.getElementsByTagName("input")[7];
-    sessionStorage.setItem('linkedin',a.value);
+    if(a.value == ""){
+        sessionStorage.setItem('linkedin',"#base");
+    }else{
+        sessionStorage.setItem('linkedin',a.value);
+    }   
 
     a=document.getElementsByTagName("input")[8];
-    sessionStorage.setItem('facebook',a.value);
+    if(a.value == ""){
+        sessionStorage.setItem('facebook',"#base");
+    }else{
+        sessionStorage.setItem('facebook',a.value);
+    }    
 
     a=document.getElementsByTagName("input")[9];
-    sessionStorage.setItem('instagram',a.value);
+    if(a.value == ""){
+        sessionStorage.setItem('instagram',"#base");
+    }else{
+        sessionStorage.setItem('instagram',a.value);
+    }    
 
     a=document.getElementsByTagName("input")[10];
-    sessionStorage.setItem('twitter',a.value);
+    if(a.value == ""){
+        sessionStorage.setItem('twitter',"#base");
+    }else{
+        sessionStorage.setItem('twitter',a.value);
+    } 
 
     window.open("cartaodevisita.html","_blank");
 }
