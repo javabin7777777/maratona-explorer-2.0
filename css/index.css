@@ -14,12 +14,14 @@
     width: 480px;
     height: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
 .format2 {
     width: 450px;
     height: 30px;
     margin-left: 6px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 h1 {

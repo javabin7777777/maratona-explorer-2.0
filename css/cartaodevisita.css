@@ -64,12 +64,4 @@ footer {
 footer:hover{
     opacity: 1;
  }
-footer a{
-    text-decoration: none;
-    margin-left: 3px;    
-}
-footer a:hover{
-    font-size: 25px;
-    font-weight: 900;
-    color: #42cbfa
-}
+
